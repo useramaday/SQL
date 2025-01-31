@@ -10,7 +10,8 @@ Voici le RENDU SQL de la formation de Jean-Frédéric Vincent
 # Partie 2
 - Edit des tables
 
-```CREATE TABLE clients (
+```
+CREATE TABLE clients (
     noCli INT NOT NULL PRIMARY KEY,
     nom VARCHAR(30) NOT NULL,
     prenom VARCHAR(30) NOT NULL,
